@@ -1,0 +1,145 @@
+#title {
+  background-color: #ff4c68;
+
+  /* z-index: -1;
+  position: fixed; */
+}
+.intro {
+  font-family: "Montserrat";
+  font-size: 60px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-style: bold;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+}
+.container {
+  padding: 3% 15%;
+}
+.iphone {
+  height: 450px;
+  width: 225px;
+
+transform: rotate(20 deg);
+  z-index: 0;
+  position: absolute; 
+}
+.heading {
+  font-size: 50px;
+  font-family: "Ubuntu";
+  position: relative;
+  right: 10px;
+  color: rgb(255, 255, 255);
+}
+.nav-link {
+  font-size: 20px;
+  margin: 30px;
+  color: rgb(255, 255, 255);
+}
+.btn {
+  margin: 20px;
+}
+.navbar {
+  padding: 0px 20px;
+}
+.features-box {
+  padding: 2px;
+}
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  font-family: "Montserrat";
+  background-color: rgb(255, 255, 255);
+ z-index: 2;
+  position: relative;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+.icons {
+  margin-bottom: 20px;
+}
+p {
+  color: #8f8f8f;
+}
+#testimonials{
+  background-color: #ef8172;;
+  text-align: center;
+}
+.testimonial-desc{
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  padding-top: 10% ;
+  
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.testimonial-img{
+  border-radius: 100%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.press-img{
+  height: 80px;
+  width : 150px;
+  margin: 3%;
+  
+}
+h2{
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.card-disp{
+  padding: 3% 2%;
+} 
+.last-line{
+  font-family: "Montserrat";
+  text-align: center;
+  color: #ffffff;
+}
+.last-btn{
+  margin-left: 300px;
+  margin-right: 250px;
+}
+.copyright{
+  text-align: center;
+  color: #000000;
+}
+@media(max-width:1028px){
+  .iphone{
+  position: static;
+}}
+#cta{
+  background-color: #ff4c68;
+  padding-top: 5%;
+  padding-bottom:5% ;
+}
+#footer{
+  background-color: #ffffff;
+  padding-top: 5%;
+  padding-bottom:5% ;
+}
+.contact-icon{
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+}
+.iconss{
+  text-align: center;
+  padding-bottom: 3%;
+}
+.last-download{
+  text-align: center;
+}
